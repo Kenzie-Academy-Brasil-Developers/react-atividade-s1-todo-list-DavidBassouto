@@ -1,0 +1,38 @@
+.form-Todo {
+  width: 70%;
+  max-width: 800px;
+  background-color: orange;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  width: 100%;
+  display: flex;
+  flex: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-Todo input {
+  width: 70%;
+  height: 50px;
+  color: black;
+  font-size: 90%;
+}
+
+button {
+  background-color: gray;
+  color: black;
+  border: none;
+  border-radius: 10%;
+  margin: 6px;
+  padding: 10px;
+  box-shadow: 1px 2px 3px black;
+  cursor: pointer;
+}
